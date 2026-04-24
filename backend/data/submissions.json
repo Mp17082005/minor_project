@@ -1,0 +1,22 @@
+[
+  {
+    "assignment_id": "1",
+    "student_name": "qqq",
+    "student_email": "qqq@gmail.com",
+    "file_path": "uploads\\1_qqq@gmail.com.png",
+    "file_name": "Screenshot 2026-04-04 001345.png",
+    "id": "1",
+    "submitted_at": "2026-04-04T00:44:21.533086",
+    "status": "graded"
+  },
+  {
+    "assignment_id": "3",
+    "student_name": "maheshkumarpandey17",
+    "student_email": "maheshkumarpandey17@gmail.com",
+    "file_path": "uploads\\3_maheshkumarpandey17@gmail.com.png",
+    "file_name": "Screenshot 2026-04-04 001345.png",
+    "id": "2",
+    "submitted_at": "2026-04-04T15:19:14.230741",
+    "status": "graded"
+  }
+]

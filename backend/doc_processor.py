@@ -11,8 +11,11 @@ from sentence_transformers import SentenceTransformer
 
 
 # ---------- Qdrant Setup ----------
-QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.5hqNxJ5Lr9KCqmgjCIjA4THBoPw1n_UYaJ3AQTJWNRc"
-QDRANT_URL = "https://0896e0e6-4b50-438a-82db-09ba2ce1b1a8.us-east-1-1.aws.cloud.qdrant.io"
+QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6NGI5NTRlOGItMTdjYi00NzQ2LTljNGItNjJjOWM0ZjYyODk3In0.3zchyzDoy7utjld9BHBVn-syeshksqCGjNw6KjDKosk"
+QDRANT_URL = "https://56b2f68b-519a-45f8-8094-ec683f625b26.eu-central-1-0.aws.cloud.qdrant.io:6333"
+
+COLLECTION = "notesync"
+
 
 client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=60)
 embedding_model = SentenceTransformer("BAAI/bge-small-en-v1.5")
@@ -108,7 +111,7 @@ def store_chunks_in_qdrant(chunks, collection_name, doc_id, batch_size=50):
 
 
 # ---------- End-to-End ----------
-def process_file_to_qdrant(file_path, collection_name="notes_collection_cloud", doc_id=None):
+def process_file_to_qdrant(file_path, collection_name="mini_project", doc_id=None):
     if doc_id is None:
         doc_id = str(uuid.uuid4())
 

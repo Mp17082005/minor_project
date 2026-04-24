@@ -1,0 +1,32 @@
+[
+  {
+    "title": "asssess",
+    "question": "what is photosynthesis",
+    "grading_rules": "Content Accuracy and Understanding (40 points)\n- Demonstrates thorough understanding of the topic\n- All key concepts are correctly explained\n- Factual information is accurate\n\nOrganization and Structure (20 points)\n- Clear introduction, body, and conclusion\n- Logical flow of ideas\n- Proper paragraph structure\n\nCritical Thinking and Analysis (20 points)\n- Shows original thought and analysis\n- Makes connections between concepts\n- Provides relevant examples\n\nGrammar, Spelling, and Presentation (20 points)\n- Proper grammar and punctuation\n- Correct spelling throughout\n- Professional formatting and presentation\n\nTotal: 100 points",
+    "deadline": "2026-04-04T00:45",
+    "teacher_email": "teacher@example.com",
+    "id": "1",
+    "created_at": "2026-04-04T00:43:04.095983",
+    "status": "graded"
+  },
+  {
+    "title": "asdf",
+    "question": "what is photosynthesis",
+    "grading_rules": "Content Accuracy and Understanding (40 points)\n- Demonstrates thorough understanding of the topic\n- All key concepts are correctly explained\n- Factual information is accurate\n\nOrganization and Structure (20 points)\n- Clear introduction, body, and conclusion\n- Logical flow of ideas\n- Proper paragraph structure\n\nCritical Thinking and Analysis (20 points)\n- Shows original thought and analysis\n- Makes connections between concepts\n- Provides relevant examples\n\nGrammar, Spelling, and Presentation (20 points)\n- Proper grammar and punctuation\n- Correct spelling throughout\n- Professional formatting and presentation\n\nTotal: 100 points",
+    "deadline": "2026-04-04T15:19",
+    "teacher_email": "teacher@example.com",
+    "id": "2",
+    "created_at": "2026-04-04T15:17:35.821670",
+    "status": "closed"
+  },
+  {
+    "title": "fdghjk",
+    "question": "what is photosynthesis",
+    "grading_rules": "Content Accuracy and Understanding (40 points)\n- Demonstrates thorough understanding of the topic\n- All key concepts are correctly explained\n- Factual information is accurate\n\nOrganization and Structure (20 points)\n- Clear introduction, body, and conclusion\n- Logical flow of ideas\n- Proper paragraph structure\n\nCritical Thinking and Analysis (20 points)\n- Shows original thought and analysis\n- Makes connections between concepts\n- Provides relevant examples\n\nGrammar, Spelling, and Presentation (20 points)\n- Proper grammar and punctuation\n- Correct spelling throughout\n- Professional formatting and presentation\n\nTotal: 100 points",
+    "deadline": "2026-04-04T15:22",
+    "teacher_email": "teacher@example.com",
+    "id": "3",
+    "created_at": "2026-04-04T15:18:34.922446",
+    "status": "graded"
+  }
+]

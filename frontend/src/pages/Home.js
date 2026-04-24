@@ -27,7 +27,7 @@ const Home = () => {
     formData.append('description', description);
 
     try {
-      const response = await axios.post('/upload', formData, {
+      const response = await axios.post('http://localhost:8000/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
